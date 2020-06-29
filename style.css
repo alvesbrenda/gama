@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+html,
+body {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    box-shadow: 0px 4px 8px rgba(50, 50, 71, 0.06), 0px 4px 4px rgba(0, 0, 0, 0.08);
+}
+
+body {
+    background: url(./assets/bg.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+.main,
+.lower {
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.display-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+h1 {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 76px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+h2 {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 52px;
+}
+
+h1,
+h2,
+button {
+    color: #fff;
+}
+
+input {
+    margin-bottom: 32px;
+    width: 350px;
+    height: 47px;
+    background: #F3F3F3;
+    border-radius: 25px;
+    padding: 14px 34px;
+    outline: 0;
+    border: none;
+    font-size: 16px;
+}
+
+.call-action {
+    margin: 0;
+    background: #ED361D;
+    border-radius: 25px;
+    width: 184px;
+    height: 47px;
+    border: none;
+    font-size: 16px;
+}
+
+.logotipo {
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.logotipo>svg {
+    margin-top: 37px;
+    margin-left: 151px;
+}
+
+button>span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button>span>i {
+    margin-left: 13px
+}
+
+.header-text {
+    margin: 90px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 67px;
+    text-align: center;
+    color: #ED361D;
+}
